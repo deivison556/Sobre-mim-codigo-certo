@@ -1,0 +1,19 @@
+/* Importando os arquivos css */
+@import url('./style.css');
+@import url('./responsivo.css');
+
+
+/* Importação dos estilos de fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+
+/* Paleta de cores */
+:root {
+  --corPrimaria-preto: #000000;
+  --corSecundaria-vermelho: #e53939 ;
+  --corTercearia-branco: #ffffff ;
+  --corHover: #FA1F1F;
+  --fontPrincipal: "Bowlby One", sans-serif;
+  --fontSecundaria: "Autour One", system-ui;
+}
+
