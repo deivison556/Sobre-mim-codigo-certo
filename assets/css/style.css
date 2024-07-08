@@ -115,16 +115,16 @@ header .header-container .header-navegacao #header-btn-email:hover {
   display: block;
 }
 
-#container-main #box-redesocial-main #nav-redes-sociais {
+#container-main #box-redesocial-main .nav-redes-sociais {
   margin-top: 5px;
 }
 
-#container-main #box-redesocial-main #nav-redes-sociais .logo-social {
+#container-main #box-redesocial-main .nav-redes-sociais .logo-social {
   width: 40px;
   height: 40px;
 }
 
-#container-main #box-redesocial-main #nav-redes-sociais .logo-social:hover {
+#container-main #box-redesocial-main .nav-redes-sociais .logo-social:hover {
   border-radius: 50%;
   box-shadow: 0px 0px 5px white;
   transition: 0s;
