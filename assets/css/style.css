@@ -108,23 +108,23 @@ header .header-container .header-navegacao #header-btn-email:hover {
 }
 
 /* links de rede sociais - main */
-#container-main #box-redesocial-main {
+.box-redesocial-main {
   width: 100%;
   height: 80px;
   margin-top: 10px;
   display: block;
 }
 
-#container-main #box-redesocial-main .nav-redes-sociais {
+.nav-redes-sociais {
   margin-top: 5px;
 }
 
-#container-main #box-redesocial-main .nav-redes-sociais .logo-social {
+.nav-redes-sociais .logo-social {
   width: 40px;
   height: 40px;
 }
 
-#container-main #box-redesocial-main .nav-redes-sociais .logo-social:hover {
+.nav-redes-sociais .logo-social:hover {
   border-radius: 50%;
   box-shadow: 0px 0px 5px white;
   transition: 0s;
@@ -239,4 +239,3 @@ header .header-container .header-navegacao #header-btn-email:hover {
   color: var(--corTercearia-branco);
   font-family: var(--fontSecundaria);
 }
-
