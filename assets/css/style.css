@@ -69,3 +69,63 @@ header .header-container .header-navegacao #header-btn-email:hover {
   box-shadow: 1px 1px 5px white;
   transition: 0s;
 }
+
+/* conteudo principal main */
+#container-main {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#container-main #box-conteudo-principal-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 700px;
+}
+
+#container-main #box-conteudo-principal-main h3 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: var(--corSecundaria-vermelho);
+  font-family: var(--fontSecundaria);
+}
+
+#container-main #box-conteudo-principal-main p {
+  font-size: 20px;
+  color: var(--corTercearia-branco);
+  font-family: var(--fontSecundaria);
+}
+
+/* foto de perfil - main */
+#container-main #box-img-perfil {
+  height: 500px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+/* links de rede sociais - main */
+#container-main #box-redesocial-main {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  display: block;
+}
+
+#container-main #box-redesocial-main #nav-redes-sociais {
+  margin-top: 5px;
+}
+
+#container-main #box-redesocial-main #nav-redes-sociais .logo-social {
+  width: 40px;
+  height: 40px;
+}
+
+#container-main #box-redesocial-main #nav-redes-sociais .logo-social:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px white;
+  transition: 0s;
+}
