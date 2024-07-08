@@ -129,3 +129,44 @@ header .header-container .header-navegacao #header-btn-email:hover {
   box-shadow: 0px 0px 5px white;
   transition: 0s;
 }
+
+/* sessao sobre mim */
+#container-sobremim {
+  height: 600px;
+  width: 1440px;
+  margin: 0 auto;
+  display: block;
+}
+
+.title {
+  color: var(--corSecundaria-vermelho);
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: var(--fontPrincipal);
+}
+
+#container-sobremim #box-conteudo-sobremim {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 400px;
+  margin: 10px auto 0 auto;
+}
+
+#box-paragraph-sobremim {
+  width: 900px;
+}
+
+#box-paragraph-sobremim p {
+  font-size: 18px;
+  color: var(--corTercearia-branco);
+  font-family: var(--fontSecundaria);
+}
+
+#box-img-garoto {
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+}
