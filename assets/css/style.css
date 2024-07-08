@@ -208,3 +208,35 @@ header .header-container .header-navegacao #header-btn-email:hover {
   color: var(--corTercearia-branco);
   font-family: var(--fontSecundaria);
 }
+
+/* sessao de motivacao */
+#container-motivacao {
+  width: 1440px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#container-motivacao #box-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: 400px;
+  margin: 10px auto 0 auto;
+}
+
+#container-motivacao #box-conteudo img {
+  width: 200px;
+  height: 200px;
+}
+
+#container-motivacao  #box-descricao-motivacao {
+  width: 700px;
+}
+
+#container-motivacao  #box-descricao-motivacao p {
+  font-size: 22px;
+  color: var(--corTercearia-branco);
+  font-family: var(--fontSecundaria);
+}
+
