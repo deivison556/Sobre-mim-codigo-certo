@@ -239,3 +239,22 @@ header .header-container .header-navegacao #header-btn-email:hover {
   color: var(--corTercearia-branco);
   font-family: var(--fontSecundaria);
 }
+
+footer {
+  width: auto;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer #container-footer {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+footer #container-footer p {
+  font-size: 20px;
+  color: var(--corTercearia-branco);
+  font-family: var(--fontSecundaria);
+}
