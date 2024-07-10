@@ -1,0 +1,82 @@
+@media screen and (max-width: 1440px) {
+header .header-container {
+  width: auto;
+}
+
+header .header-container h1 {
+  font-size: 30px;
+}
+
+header .header-container .header-navegacao {
+  width: 800px;
+  height: 60px;
+}
+
+header .header-container .header-navegacao a {
+  font-size: 16px;
+}
+
+header .header-container .header-navegacao #header-btn-email {
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* conteudo principal main */
+#container-main {
+  width: auto;
+  justify-content: space-around;
+}
+
+/* sessao sobre mim */
+#container-sobremim {
+  width: auto;
+}
+
+#container-sobremim #box-conteudo-sobremim {
+  justify-content: space-around;
+  width: auto;
+}
+
+#box-paragraph-sobremim {
+  width: 900px;
+}
+
+/* sessao gostos pessoais */
+#container-hobbies {
+  width: auto;
+  height: 700px;
+}
+
+#container-hobbies #box-conteudo-hobbies {
+  width: auto;
+  justify-content: space-around;
+}
+
+#container-hobbies #box-conteudo-hobbies .box-card-hobbies {
+  width: 320px;
+  height: 460px;
+} 
+
+#box-conteudo-hobbies .box-img-hobbies {
+  width: 300px;
+  height: 330px;
+}
+
+
+/* sessao de motivacao */
+#container-motivacao {
+  width: auto;
+}
+
+#container-motivacao #box-conteudo {
+  justify-content: space-around;
+}
+
+footer {
+  justify-content: space-around;
+}
+
+footer #container-footer {
+  width: 1200px;
+}
+}
