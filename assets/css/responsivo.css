@@ -62,7 +62,6 @@ header .header-container .header-navegacao #header-btn-email {
   height: 330px;
 }
 
-
 /* sessao de motivacao */
 #container-motivacao {
   width: auto;
@@ -78,5 +77,110 @@ footer {
 
 footer #container-footer {
   width: 1200px;
+}
+}
+
+@media screen and (max-width:1024px) {
+header .header-container h1 {
+  font-size: 22px;
+}
+  
+header .header-container .header-navegacao {
+  width: 650px;
+}
+
+header .header-container .header-navegacao a {
+  font-size: 14px;
+}
+
+header .header-container .header-navegacao #header-btn-email {
+  width: 140px;
+}
+
+/* conteudo principal main */
+#container-main {
+  width: auto;
+  justify-content: space-around;
+}
+
+#container-main #box-conteudo-principal-main {
+  width: 650px;
+}
+
+#container-main #box-conteudo-principal-main h3 {
+  font-size: 25px;
+}
+
+#container-main #box-conteudo-principal-main p {
+  font-size: 18px;
+}
+
+/* foto de perfil - main */
+#container-main #box-img-perfil {
+  height: 400px;
+  width: 250px;
+}
+
+/* sessao sobre mim */
+#container-sobremim {
+  height: 500px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+#box-paragraph-sobremim {
+  width: 650px;
+}
+
+#box-paragraph-sobremim p {
+  font-size: 16px;
+}
+
+#box-img-garoto {
+  height: 250px;
+  width: 250px;
+}                                           
+
+/* sessao gostos pessoais */
+#container-hobbies {
+  height: 600px;
+}
+
+#container-hobbies #box-conteudo-hobbies {
+  height: 500px;
+}
+
+#container-hobbies #box-conteudo-hobbies .box-card-hobbies {
+  width: 270px;
+  height: 410px;
+} 
+
+#box-conteudo-hobbies .box-img-hobbies {
+  width: 250px;
+  height: 250px;
+}
+
+/* sessao de motivacao */
+#container-motivacao {
+  height: 400px;
+}
+
+#container-motivacao #box-conteudo {
+  height: 300px;
+}
+
+#container-motivacao #box-conteudo img {
+  width: 150px;
+  height: 150px;
+}
+
+#container-motivacao  #box-descricao-motivacao p {
+  font-size: 18px;
+}
+
+footer #container-footer {
+  width: 950px;
 }
 }
