@@ -402,6 +402,43 @@ header .header-container .header-navegacao {
   }
   }
 
+@media screen and (max-width: 414px){
+header .header-container .header-navegacao {
+  height: 100px;
+}
+  
+#container-main #box-conteudo-principal-main {
+  width: 380px;
+}
+    
+#container-main #box-conteudo-principal-main h3 {
+  font-size: 22px;
+  text-align: center;
+}
+    
+#container-main #box-conteudo-principal-main p {
+  font-size: 14px;
+  text-align: left;
+}
+
+#box-paragraph-sobremim p {
+  font-size: 14px;
+}
+
+#container-motivacao  #box-descricao-motivacao p {
+  font-size: 14px;
+}
+
+#container-motivacao #box-conteudo img {
+  width: 80px;
+  height: 80px;
+}
+
+footer #container-footer {
+  width: 340px;
+} 
+}
+
 @media screen and (max-width: 390px) {
 /* conteudo principal main */
 #container-main #box-conteudo-principal-main {
