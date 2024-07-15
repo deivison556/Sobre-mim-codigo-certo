@@ -295,3 +295,130 @@ header .header-container .header-navegacao {
   height: 230px;
 }
 }
+
+@media screen and (max-width: 428px) {
+  header {
+    height: 120px;
+    justify-content: center;
+  }
+  header .header-container .header-navegacao {
+    width: auto;
+    height: 80px;
+    flex-wrap: wrap;
+  }
+  
+  #container-main {
+    height: 750px;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+  
+  /* conteudo principal main */
+  #container-main #box-conteudo-principal-main {
+    width: 400px;
+  }
+  
+  #container-main #box-conteudo-principal-main h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  #container-main #box-conteudo-principal-main p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  /* foto de perfil - main */
+  #container-main #box-img-perfil {
+    height: 375px;
+    width: 225px;
+  }
+  
+  /* sessao sobre mim */
+  #container-sobremim {
+    height: 750px;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+  
+  #container-sobremim #box-conteudo-sobremim {
+    height: 650px;
+    flex-direction: column;
+  }
+  
+  #box-paragraph-sobremim {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  /* sessao gostos pessoais */
+  #container-hobbies {
+    height: 1420px;
+  }
+  
+  #container-hobbies #box-conteudo-hobbies {
+    height: 1350px;
+    flex-direction: column;
+  }
+  
+  #container-hobbies #box-conteudo-hobbies .box-card-hobbies {
+    width: 260px;
+    height: 400px;
+  } 
+  
+  /* sessao de motivacao */
+  #container-motivacao {
+    height: 450px;
+  }
+  
+  #container-motivacao #box-conteudo {
+    height: 380px;
+    flex-direction: column;
+  }
+  
+  #container-motivacao  #box-descricao-motivacao {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #container-motivacao  #box-descricao-motivacao p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  #container-motivacao #box-conteudo img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  footer #container-footer {
+    width: 400px;
+    justify-content: space-between;
+  }
+  }
+
+@media screen and (max-width: 390px) {
+/* conteudo principal main */
+#container-main #box-conteudo-principal-main {
+  width: 360px;
+}
+  
+#container-main #box-conteudo-principal-main h3 {
+  font-size: 20px;
+  text-align: center;
+}
+  
+#container-main #box-conteudo-principal-main p {
+  font-size: 14px;
+  text-align: left;
+}
+
+footer #container-footer {
+  width: 340px;
+} 
+}
