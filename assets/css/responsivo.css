@@ -275,4 +275,23 @@ header .header-container .header-navegacao {
 #box-paragraph-sobremim {
   width: 420px;
 }
+
+/* sessao gostos pessoais */
+#container-hobbies {
+  height: 550px;
+}
+  
+#container-hobbies #box-conteudo-hobbies {
+  height: 450px;
+}
+  
+#container-hobbies #box-conteudo-hobbies .box-card-hobbies {
+  width: 250px;
+  height: 400px;
+} 
+  
+#box-conteudo-hobbies .box-img-hobbies {
+  width: 230px;
+  height: 230px;
+}
 }
